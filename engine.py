@@ -19,16 +19,16 @@ rende.active_shader = thermal
 rende.active_texture = Texture("Mouse_D.bmp")
 rende.glLoadModel("models/MouseS.obj",translate=V3(3,0,-5),rotate=V3(0,-90,0),scale=V3(1,1,1))
 
-rende.active_shader = nightVision
+rende.active_shader = colorblind
 rende.active_texture = Texture("Kitty_001_DIFF.bmp")
 rende.glLoadModel("models/KittyS.obj",translate=V3(-5,0,-10),rotate=V3(0,90,0),scale=V3(1,1,1))
 
-rende.active_shader = colorblind
+rende.active_shader = aura
 rende.active_texture = Texture("Sting_Base_Color.bmp")
 rende.normal_map = Texture("models/Sting_Normal.bmp")
 rende.glLoadModel("models/swordS.obj",translate=V3(2.5,0.2,-10),rotate=V3(0,90,90),scale=V3(1,1,1))
 
-rende.active_shader = aura
+rende.active_shader = nightVision
 rende.active_texture = Texture("handgun_Te.bmp")
 rende.normal_map = Texture("models/handgun_No.bmp")
 rende.glLoadModel("models/gunS.obj",translate=V3(-3,0.5,-10),rotate=V3(0,0,0),scale=V3(7,7,7))
